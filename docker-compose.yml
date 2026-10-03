@@ -1,0 +1,9 @@
+services:
+  backend:
+    image: ngo-impact-crm-backend:latest
+    container_name: ngo-backend
+    environment:
+      DB_PASSWORD: ${DB_PASSWORD}
+      SPRING_DATASOURCE_URL: jdbc:postgresql://host.docker.internal:5432/ngo_impact_crm
+    ports:
+      - "8081:8081"
