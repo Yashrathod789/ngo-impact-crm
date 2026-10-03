@@ -1,47 +1,30 @@
-# =========================
+# Operating System
+Thumbs.db
+.DS_Store
+
 # Node / React
-# =========================
 node_modules/
 dist/
-build/
-.npm/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+.vite/
 
-# =========================
-# Java / Spring Boot
-# =========================
+# Java / Spring Boot / Maven
 target/
 *.class
-*.jar
-*.war
-*.log
 
-# =========================
-# Environment / Secrets
-# =========================
-.env
-.env.*
-!.env.example
-
-# =========================
 # IDE
-# =========================
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
-
+.vscode/
 .idea/
 *.iml
 
-# =========================
-# Operating System
-# =========================
-.DS_Store
-Thumbs.db
+# Environment / Secrets
+.env
+.env.*
 
-# =========================
 # Test / Coverage
-# =========================
 coverage/
+backend/error.txt
+backend/startup-error.txt
+backend/startup-live.txt
+
+backend/backend-error-full.txt
+backend/run-error.txt
